@@ -12,6 +12,10 @@ section {
     color: var(--primary-blue);
     margin-bottom: 3rem;
     position: relative;
+    font-family: cursive;
+    font-style: italic;
+    border-radius: 10px;
+   box-shadow: 2px solid grey;
 }
 
 .section-title::after {
@@ -29,6 +33,7 @@ section {
 /* About Section */
 .about {
     background-color: rgb(223, 233, 129);
+
 }
 
 .about-content {
@@ -36,6 +41,7 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+ 
 }
 
 .about-text p {
@@ -59,6 +65,7 @@ section {
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(19, 19, 20, 0.975);
     transition: transform 0.3s ease;
+    border:1px solid black;
 }
 
 .stat-item:hover {
@@ -89,6 +96,7 @@ section {
     text-align: center;
     box-shadow: 0 5px 15px rgba(31, 27, 27, 0.906);
     transition: all 0.3s ease;
+    border: 1px solid black;
 }
 
 .grid-item:hover {
@@ -120,12 +128,13 @@ section {
 .academic-card {
     background: var(--white);
     padding: 2.5rem;
-    border-radius: 20px;
+    border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-     background-color: rgb(223, 233, 129);
+     background-color: rgb(223, 233, 129);  
+      border: 2px solid black;
 }
 
 .academic-card::before {
