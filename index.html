@@ -3,55 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootcamp</title>
+    <title>boot camp</title>
     <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/hero.css">
 </head>
 <body>
-    <!-- <h1>TITLE</h1>
-    <h2>Sub heading 1</h2>
-    <p>my name is sampda kandel. i read in class 10.</p>
-    <h3>Sub heading 2</h3>
-    <p> my school name is shree ratna rajya laxmi secondary school. It is very beautiful.</p>
-    <h1>ordered list</h1>
-    <ol>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
-        </ol>
-
-        <h2>unordered list</h2>
-        <ul>
-        <li>list 1</li>
-        <li>list 2</li>
-        <li>list 3</li>
-        </body></html></ul> -->
-
-
-
-
-
-     <nav class="navbar">
-        <div class="nav-container"> 
-            <span>Ratna rajya</span>
-            <ul class="nav menu">
-                <li class="nav-item">
-                    <a href="#home"class="nav-item">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="#about"class="nav-item">about</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="#academics"class="nav-item">academics</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="#event"class="nav-item">event</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="#contact"class="nav-item">contact</a>
-                    </li>
-
-
+    <nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <i><img src="assests/school-logo.png" alt=""></i>
+            <span>Ratna Rajya laxmi secondary School</span>
+    </div>
+    <ul class="nav-menu">
+        <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="#academics" class="nav-link">academics</a>
+        </li>
+        <li class="nav-item">
+            <a href="#events" class="nav-link">events</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">contact</a>
+        </li>
+    </ul>
+    </nav>
+    <!-- hero Section -->
+     <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Ratna Rajya</h1>
+            <p class="hero-subtitle">Nurturing minds, Building futures, Creating leaders</p>
+            <div class="hero-buttons">
+                <button id="change" onclick="change()"class="btn btn-primary">Apply Now</button>
+                <button class="btn btn-secondary">welcome back</button>
+            </div>
         </div>
-    </nav> 
+        <div class="hero-image">
+            <div class="floating-card">
+                <!-- <i class="fas fa-users"></i> -->
+                 <h3>1500+ Student</h3>
+                 <p>A large community</p>
+            </div>
+        </div>
+     </section>
+     <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About our school</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quidem deserunt totam quis fugiat, tempore maxime! Voluptatem quia magnam voluptates ea illo quae veritatis provident deserunt molestiae? Debitis, reiciendis architecto!
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Lorem ipsum dalor.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
 </body>
+<script src="./script/script.js"></script>
 </html>
