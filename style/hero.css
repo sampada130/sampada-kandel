@@ -7,7 +7,7 @@
     justify-content: space-around;
     position: relative;
     overflow: hidden;
-    border: 1px solid red;
+   
     
 }
 .hero-content{
@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
+    
 }
 .hero-title{
     font-size: 50px;
@@ -68,7 +68,7 @@
     display:flex;
     justify-content: center;
     position: relative;
-    border: 1px solid red;
+    
 }
 .floating-card{
     background: rgba(255,255,255,0.1);
